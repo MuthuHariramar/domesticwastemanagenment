@@ -51,6 +51,15 @@ input{
     margin: 5px;
     width: 210px;
 }
+.libut{
+    padding: 10px 20px;
+    text-decoration: none;
+    background: linear-gradient(to right,rgb(148, 211, 172), rgb(204, 237, 210));
+    color: rgb(101, 92, 86);
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 .lgn{
     margin-top: 30px;
