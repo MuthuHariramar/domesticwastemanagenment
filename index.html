@@ -3,28 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planet Clean</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+    <!--Link for css-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Link for icon-->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!--remixi link-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
+    <!--toolbar  of the website-->
     <header>
-        <h1>Planet Clean</h1>
-        <nav>
-            <li>Home</li>
-            <li>Pledege</li>
-            <li>About</li>
-            <li>Contact</li>
-            <a class="libut" href="login.html">Login</a>
-            <a class="libut" href="signup.html">Signup</a>
-        </nav>
+        <a href="/." class="logo">Planet Clean</a>
+        <ul class="navlist">
+            <li><a href="index.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="pledge.html">Pledge</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Signup</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menuicon"></div>
+
     </header>
-    <div class="main">
-        <div class="content">
 
+    <!--body of the website-->
+    <section class="hero">
+        <div class="hero-text">
+            <h5>#Its time to clean</h5>
+            <h1>Clean India,Strong India</h1>
+            <h3>Time to lead,and shine India to the World</h3>
+            <a href="login.html" class="btn">Login</a>
+            <a href="report.html" class="new">Report</a>
 
-        </div>  
-
-
+        </div>
+        <div class="hero-img">
+            <img src="hero.png" alt="clean india" title="clean and take Responsibility">
+        </div>
+    </section>
+    <div class="icon">
+        <a href="#"><i class='bx bxl-instagram' ></i></a>
+        <a href="#"><i class='bx bxs-donate-heart' ></i></a>
+        <a href="#"><i class='bx bxs-contact' ></i></a>
     </div>
+    <div class="scroll-down">
+        <a href="#"><i class='bx bxs-chevrons-down' ></i></a>
+    </div>
+
+
+
+     <!--costum js link-->
+     <script src="script.js"></script>
+
+    
 </body>
 </html>
