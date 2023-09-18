@@ -106,7 +106,7 @@ section{
     display: inline-block;
     color: white;
     background: linear-gradient(245.59deg,lightblue 0%,#ccd7ed 28%,rgb(58, 186, 236) 75%);
-    border: 3px solid transparent;
+    border: 3px solid white;
     padding: 7px 30px;
     border-radius: 90px;
     line-height: 1.4;
